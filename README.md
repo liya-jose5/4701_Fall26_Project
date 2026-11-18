@@ -10,6 +10,7 @@ Tech Stack
 - Hosting: 
 
 Git Repo Structure
+'''bash
 /4701_Fall26_Project
 |
 |-- /db                                    # database folder - initialization, sample data
@@ -37,7 +38,7 @@ Git Repo Structure
 |-- config.py                              # Flask and Oracle configuration
 |-- models.py
 |__ requirements.txt
-
+'''
 
 ## Project Guidelines
 #### _ER Diagram_: 
