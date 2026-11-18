@@ -10,6 +10,7 @@ Tech Stack
 - Hosting: 
 
 Git Repo Structure
+```text
 .
 ├── app.py                              # backend Python Flask - routing, roles, authorization
 ├── config.py                           # configuring Flask and Oracle db
@@ -33,7 +34,7 @@ Git Repo Structure
     ├── employee                        # employee pages
     │   └── ...
     └── ...                             # common pages for customers and employees
-
+```
 
 ## Project Guidelines
 #### _ER Diagram_: 
