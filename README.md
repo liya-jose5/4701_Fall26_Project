@@ -11,6 +11,7 @@ develop a web or desktop application that uses its relational schema. Please fee
 
 The following application requirements illustrate the automobile sales example. Groups choosing other
 topics should define corresponding functions for their own applications.
+
 • Every customer registers an account with an email and will be assigned an ID for automobile purchase
 from the current automobile company. If one customer purchases multiple vehicles from different
 dealers, the same ID is used.
@@ -19,6 +20,7 @@ dealers, the same ID is used.
 • Employees at dealers can login, check and update the vehicle information in stock.
 • Before new vehicles arrive any dealer, the system checks that if the dealer has enough space (not
 exceeding the maximum number of vehicles).
+
 All the above data and application are only examples. If you would like to add more functionalities in
 the database and application, please feel free to do so.
 
