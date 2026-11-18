@@ -1,4 +1,8 @@
 -- Create database 
+CREATE DATABASE PackageDelivery;
+USE PackageDelivery;
+
+-- Create tables
 CREATE TABLE customer(
   
 );
