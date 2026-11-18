@@ -10,35 +10,30 @@ Tech Stack
 - Hosting: 
 
 Git Repo Structure
-'''bash
-/4701_Fall26_Project
-|
-|-- /db                                    # database folder - initialization, sample data
-|   |-- database.py
-|   |-- package_tracking.ddl
-|   |-- sample_data.sql
-|
-|-- /er_diagram                            # er diagram
-|   |-- Relational2.png
-|
-|-- /static                                # frontend design - CSS & JS
-|   |-- /css
-|       |-- style.css
-|   |--/js
-|      |-- script.js
-|
-|-- /templates                             # frontend design - HTML pages
-|   |-- /customer                          # customer interface pages
-|   |-- /employee                          # employee interface pages
-|   |-- ...                                # common pages for customers and employees 
-|
-|-- .gitignore                             
-|-- README.md  
-|-- app.py                                 # application Flask setup, routing, roles, authorization
-|-- config.py                              # Flask and Oracle configuration
-|-- models.py
-|__ requirements.txt
-'''
+4701_Fal26_Project
+├── app.py                              # backend Python Flask - routing, roles, authorization
+├── config.py                           # configuring Flask and Oracle db
+├── db                                  # database - initialization, sample data
+│   ├── database.py
+│   ├── package_tracking.ddl
+│   └── sample_data.sql
+├── er_diagram                          # ER Diagram
+│   └── Relational_2.png
+├── models.py                           #  
+├── README.md                           
+├── requirements.txt          
+├── static                              # frontend styling - CSS & JavaScript
+│   ├── css
+│   │   └── style.css
+│   └── js
+│       └── script.js
+└── templates                           # frontend pages - HTML
+    ├── customer                        # customer pages
+    │   └── ...
+    ├── employee                        # employee pages
+    │   └── ...
+    └── ...                             # common pages for customers and employees
+
 
 ## Project Guidelines
 #### _ER Diagram_: 
