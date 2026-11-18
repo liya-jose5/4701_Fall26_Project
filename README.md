@@ -9,6 +9,19 @@ a translation of the ER Model into a relational schema implemented as an SQL scr
 #### _Application_: 
 develop a web or desktop application that uses its relational schema. Please feel free to use GitHub or BitBucket to manage/exchange the source codes with your teammates.
 
+The following application requirements illustrate the automobile sales example. Groups choosing other
+topics should define corresponding functions for their own applications.
+• Every customer registers an account with an email and will be assigned an ID for automobile purchase
+from the current automobile company. If one customer purchases multiple vehicles from different
+dealers, the same ID is used.
+• A customer holding an account can register/modify/delete the information for their account.
+• A customer can check his/her purchase history.
+• Employees at dealers can login, check and update the vehicle information in stock.
+• Before new vehicles arrive any dealer, the system checks that if the dealer has enough space (not
+exceeding the maximum number of vehicles).
+All the above data and application are only examples. If you would like to add more functionalities in
+the database and application, please feel free to do so.
+
 #### _Submission (Deadline 12/10/2026)_: 
 a report (including the ER Diagram, the screen shots of the application, each student’s contributions, and necessary description), source codes, and an SQL script file.
 
