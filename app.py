@@ -1,5 +1,5 @@
 from flask import Flask
-import mysql.connector
+import oracledb
 from functools import wraps
 from config import Config
 from db.database import get_db_connection
@@ -71,7 +71,7 @@ def register():
             db.commit()
             flash("Registration successful. Please log in.")
             return redirect(url_for("customer_login"))
-        except mysql.connector.IntegrityError:
+        except oracledb.connector.IntegrityError:
             db.rollback()
             flash("This email is already registered.")
         finally:
