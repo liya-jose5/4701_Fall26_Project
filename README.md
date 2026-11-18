@@ -3,13 +3,13 @@
 ## Project Design 
 This project 
 
-Tech Stack
+_Tech Stack_
 - Backend: Python Flask
 - Frontend: HTML, CSS, JavaScript
 - Database: Oracle
 - Hosting: 
 
-Git Repo Structure
+_Git Repo Structure_
 ```text
 .
 ├── app.py                              # backend Python Flask - routing, roles, authorization
