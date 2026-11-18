@@ -10,7 +10,7 @@ Tech Stack
 - Hosting: 
 
 Git Repo Structure
-4701_Fal26_Project
+.
 ├── app.py                              # backend Python Flask - routing, roles, authorization
 ├── config.py                           # configuring Flask and Oracle db
 ├── db                                  # database - initialization, sample data
