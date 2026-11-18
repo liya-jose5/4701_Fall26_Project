@@ -186,7 +186,6 @@ def employee_logout():
 
 
 # unauthorized handler
-
 @login_manager.unauthorized_handler
 def unauthorized():
     if request.path.startswith("/employee"):
