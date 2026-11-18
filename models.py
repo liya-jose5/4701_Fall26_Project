@@ -1,5 +1,5 @@
 from flask_login import UserMixin
-from database.database import get_db_connection
+from db.database import get_db_connection
 
 class User(UserMixin):
     def __init__(self, user_id, name, role):

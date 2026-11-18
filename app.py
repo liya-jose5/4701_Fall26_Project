@@ -2,7 +2,7 @@ from flask import Flask
 import mysql.connector
 from functools import wraps
 from config import Config
-from database.database import get_db_connection
+from db.database import get_db_connection
 from models import User, load_user
 
 from flask import (
