@@ -1,5 +1,10 @@
 # Package delivery database
 
+## Project Design 
+
+
+
+## Project Guidelines
 #### _ER Diagram_: 
 develop an ER Model for the application. The ER Diagram can be included in the report as any type of image file.
 
