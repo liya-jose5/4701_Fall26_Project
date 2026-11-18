@@ -20,7 +20,7 @@ _Git Repo Structure_
 │   └── sample_data.sql
 ├── er_diagram                          # ER Diagram
 │   └── Relational_2.png
-├── models.py                           #  
+├── models.py                           # backend login authentication and functionality
 ├── README.md                           
 ├── requirements.txt          
 ├── static                              # frontend styling - CSS & JavaScript
