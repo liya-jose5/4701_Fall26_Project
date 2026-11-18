@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Login</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static',
+          filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <h1>Employee Portal</h1>
+
+        <p>Sign in to manage deliveries.</p>
+
+        {% with messages = get_flashed_messages() %}
+            {% for message in messages %}
+                <p class="error">{{ message }}</p>
+            {% endfor %}
+        {% endwith %}
+
+        <form method="POST">
+
+            <label>Employee Email</label>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Enter employee email"
+                required
+            >
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Enter password"
+                required
+            >
+
+            <button type="submit">
+                Employee Login
+            </button>
+
+        </form>
+
+        <p>
+            <a href="/">Return to homepage</a>
+        </p>
+
+    </div>
+
+</body>
+</html>
