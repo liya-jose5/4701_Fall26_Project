@@ -1,7 +1,7 @@
 # Package delivery database
 
 ## Project Design 
-A Flask (Python 3.11) web application that functions as both a customer and employee interface for a package delivery system.
+A Flask (Python 3.11) web application that functions as both a customer and employee interface for a package delivery system. Utilizes Python Flask for backend, Oracle for database and frontend built with HTML, CSS and Javascript.
 
 _Tech Stack_
 - Backend: Python Flask
