@@ -1,7 +1,42 @@
 # Package delivery database
 
 ## Project Design 
+This project 
 
+Tech Stack
+- Backend: Python Flask
+- Frontend: HTML, CSS, JavaScript
+- Database: Oracle
+- Hosting: 
+
+Git Repo Structure
+/4701_Fall26_Project
+|
+|-- /db                                    # database folder - initialization, sample data
+|   |-- database.py
+|   |-- package_tracking.ddl
+|   |-- sample_data.sql
+|
+|-- /er_diagram                            # er diagram
+|   |-- Relational2.png
+|
+|-- /static                                # frontend design - CSS & JS
+|   |-- /css
+|       |-- style.css
+|   |--/js
+|      |-- script.js
+|
+|-- /templates                             # frontend design - HTML pages
+|   |-- /customer                          # customer interface pages
+|   |-- /employee                          # employee interface pages
+|   |-- ...                                # common pages for customers and employees 
+|
+|-- .gitignore                             
+|-- README.md  
+|-- app.py                                 # application Flask setup, routing, roles, authorization
+|-- config.py                              # Flask and Oracle configuration
+|-- models.py
+|__ requirements.txt
 
 
 ## Project Guidelines
