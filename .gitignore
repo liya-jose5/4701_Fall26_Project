@@ -1,13 +1,13 @@
-# Python virtual environments
+# python venv
 venv/
 .venv/
 env/
 
-# Python cache files
+# python cache files
 __pycache__/
 *.py[cod]
 
-# Environment variables and secrets
+# env variables and secrets
 .env
 .env.*
 
@@ -18,11 +18,11 @@ instance/
 .vscode/
 .idea/
 
-# Operating system files
+# os files
 .DS_Store
 Thumbs.db
 
-# Test and coverage files
+# test and coverage files
 .pytest_cache/
 .coverage
 htmlcov/
