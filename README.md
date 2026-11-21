@@ -1,11 +1,11 @@
 # Package delivery database
 
 ## Set Up
-#set up virtual environment
+    #set up virtual environment
 
-#install dependencies 
+    #install dependencies 
 
-#launch app
+    #launch app
 
 ## Project Design 
 A Flask (Python 3.11) web application that functions as both a customer and employee interface for a package delivery system. Utilizes Python Flask for backend, Oracle for database and frontend built with HTML, CSS and Javascript.
